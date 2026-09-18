@@ -7,3 +7,6 @@ La conclusion es que cuando abrimos el archivo en el navegador como .txt, aparec
 # 1. Crea un archivo de texto llamado textos.txt:
 ## Ábrelo con un navegador. Cámbialo de nombre por textos.html. Vuélvelo a abrir con el navegador.
 ### ¿Qué conclusiones sacas de tu observación?
+
+#Ejercico2
+
