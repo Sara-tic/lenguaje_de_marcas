@@ -1,0 +1,17 @@
+Errores encontrados en el ejercicio 4
+
+1. Línea 1: pone <!DOCTYPE htm> en vez de <!DOCTYPE html>. Falta la "l" de html.
+
+2. Línea 2: el atributo está mal escrito, pone lan=es en vez de lang="es". Además el valor no lleva comillas.
+
+3. Línea 3: en el head no está la etiqueta <meta charset="UTF-8">, así que no se indica la codificación y el validador da error.
+
+4. Línea 4: la etiqueta <title> no está cerrada. Falta poner </title> después de "Página de contacto".
+
+5. Línea 7: el <h1> no se cierra bien, pone <h1>Contacto<h1> con <h1> dos veces en vez de <h1>Contacto</h1>.
+
+6. Línea 8: las etiquetas están cruzadas, pone </p></b> y tiene que ser </b></p>. La última que se abre (<b>) tiene que ser la primera que se cierra.
+
+7. Línea 9: el párrafo del horario no se cierra, falta el </p> al final.
+
+8. Líneas 11 y 12: los <li> de Teléfono y Email no se cierran, falta el </li> en cada uno.
