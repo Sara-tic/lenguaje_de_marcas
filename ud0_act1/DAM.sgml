@@ -1,0 +1,47 @@
+<dam>
+  <modulo>
+    <titulo>Lenguaje de Marcas</titulo>
+    <contenido>
+      <unidad>Introducción</unidad>
+      <unidad>HTML</unidad>
+      <unidad>CSS</unidad>
+      <unidad>XML</unidad>
+      <unidad>Sistemas de gestión de la información</unidad>
+    </contenido>
+  </modulo>
+  <modulo>
+    <titulo>Programación</titulo>
+    <contenido>
+      <unidad>Introducción a la programación</unidad>
+      <unidad>Variables y tipos de datos</unidad>
+      <unidad>Estructuras de control</unidad>
+      <unidad>Programación orientada a objetos</unidad>
+    </contenido>
+  </modulo>
+  <modulo>
+    <titulo>Bases de Datos</titulo>
+    <contenido>
+      <unidad>Sistemas de almacenamiento</unidad>
+      <unidad>Modelo entidad-relación</unidad>
+      <unidad>Modelo relacional</unidad>
+      <unidad>Lenguaje SQL</unidad>
+    </contenido>
+  </modulo>
+  <modulo>
+    <titulo>Sistemas Informáticos</titulo>
+    <contenido>
+      <unidad>Hardware</unidad>
+      <unidad>Sistemas operativos</unidad>
+      <unidad>Redes</unidad>
+    </contenido>
+  </modulo>
+  <modulo>
+    <titulo>Entornos de Desarrollo</titulo>
+    <contenido>
+      <unidad>Desarrollo de software</unidad>
+      <unidad>Uso de entornos de desarrollo (IDE)</unidad>
+      <unidad>Pruebas y depuración</unidad>
+      <unidad>Control de versiones</unidad>
+    </contenido>
+  </modulo>
+</dam>

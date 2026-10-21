@@ -1,0 +1,57 @@
+<paises>
+  <continente>
+    <nombre>Europa</nombre>
+    <pais>
+      <nombre>España</nombre>
+      <capital>Madrid</capital>
+      <idioma>Español</idioma>
+      <poblacion>48 millones</poblacion>
+      <moneda>Euro</moneda>
+    </pais>
+    <pais>
+      <nombre>Francia</nombre>
+      <capital>París</capital>
+      <idioma>Francés</idioma>
+      <poblacion>68 millones</poblacion>
+      <moneda>Euro</moneda>
+    </pais>
+  </continente>
+  <continente>
+    <nombre>África</nombre>
+    <pais>
+      <nombre>Marruecos</nombre>
+      <capital>Rabat</capital>
+      <idioma>Árabe</idioma>
+      <idioma>Amazigh</idioma>
+      <poblacion>37 millones</poblacion>
+      <moneda>Dírham</moneda>
+    </pais>
+    <pais>
+      <nombre>Egipto</nombre>
+      <capital>El Cairo</capital>
+      <idioma>Árabe</idioma>
+      <poblacion>107 millones</poblacion>
+      <moneda>Libra egipcia</moneda>
+    </pais>
+  </continente>
+  <continente>
+    <nombre>América</nombre>
+    <pais>
+      <nombre>México</nombre>
+      <capital>Ciudad de México</capital>
+      <idioma>Español</idioma>
+      <poblacion>130 millones</poblacion>
+      <moneda>Peso mexicano</moneda>
+    </pais>
+  </continente>
+  <continente>
+    <nombre>Asia</nombre>
+    <pais>
+      <nombre>Japón</nombre>
+      <capital>Tokio</capital>
+      <idioma>Japonés</idioma>
+      <poblacion>124 millones</poblacion>
+      <moneda>Yen</moneda>
+    </pais>
+  </continente>
+</paises>
