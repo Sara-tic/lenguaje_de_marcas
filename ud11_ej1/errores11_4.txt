@@ -1,0 +1,24 @@
+Errores encontrados en el código original:
+
+1. Línea 1: <!DOCTYPE htm> está mal escrito. Debe ser <!DOCTYPE html>.
+
+2. Línea 1: el atributo del elemento html está mal escrito, pone "lan" en vez de "lang".
+
+3. Línea 1: el valor del atributo no lleva comillas (lan=es). Debe ser lang="es".
+
+4. Línea 2-4: falta la etiqueta <meta charset="UTF-8"> en la cabecera,
+   necesaria para que se muestren bien las tildes (Página, atención...).
+
+5. Línea 3: la etiqueta <title> no está cerrada. Falta </title>.
+
+6. Línea 6: la etiqueta <h1> no está cerrada correctamente, pone <h1> dos veces
+   en vez de <h1>...</h1>.
+
+7. Línea 7: las etiquetas están mal anidadas. Se abre <p> y luego <b>, pero se
+   cierra primero </p> y después </b>. Deben cerrarse en orden inverso: </b></p>.
+
+8. Línea 8: el párrafo del horario no está cerrado. Falta </p>. Además, una
+   lista <ul> no puede ir dentro de un párrafo, así que hay que cerrarlo antes.
+
+9. Líneas 10 y 11: los elementos <li> de la lista no están cerrados. Falta </li>
+   en "Teléfono" y en "Email".
