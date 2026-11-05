@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4 - Tarjeta de producto</title>
+</head>
+<body>
+    <div style="width: 340px; padding: 20px; background-color: #f9f9f9;">
+
+        <!-- Imagen LOCAL (ruta relativa): es la foto principal del producto. La elegiría en
+             un caso real porque el archivo está dentro de mi proyecto, así que siempre carga,
+             no depende de otra web y controlo yo la imagen. -->
+        <img src="img/taza.png" alt="Taza azul marino con el texto DAW entre símbolos de etiqueta HTML y el lema code, coffee, repeat, llena de café humeante" width="300" height="300" style="border: 3px solid #1d3557;">
+
+        <!-- Imagen REMOTA (URL absoluta): es el sello de oferta, alojado en internet. La
+             usaría en un caso real para imágenes que comparten varias páginas o que gestiona
+             otro servidor, porque no ocupa espacio en mi proyecto; el riesgo es que si la URL
+             cambia o la web cae, la imagen deja de verse. -->
+        <img src="https://raw.githubusercontent.com/Sara-tic/lenguaje_de_marcas/main/recursos/sello_oferta.png" alt="Sello rojo en forma de estrella con el texto OFERTA -25%" width="80" height="80">
+
+        <h2>Taza &lt;DAW/&gt;</h2>
+        <p>Precio: <del>15,99 €</del> <strong>11,99 €</strong></p>
+        <p>Taza de cerámica de 350 ml para programadores, con el diseño &lt;DAW/&gt; y el lema
+        <em>code, coffee, repeat</em>. Apta para microondas y lavavajillas.</p>
+    </div>
+</body>
+</html>
