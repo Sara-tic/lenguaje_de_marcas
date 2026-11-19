@@ -1,0 +1,58 @@
+Dónde escribir
+Grupo de botones del menú: nav ul
+Grupo de tarjetas: .platos (o el nombre de la caja que las envuelve en el HTML)
+Galería: .galeria
+Cabecera: header
+Página entera: body
+Una sola cosa (un botón, una tarjeta, una foto): su nombre, por ejemplo nav li:last-child o .galeria div:first-child
+Si el grupo no existe en el CSS: lo creas en una línea nueva, fuera de las llaves de otro.
+MENÚ (en nav ul)
+En fila: display: flex;
+Separados: gap: 8px;
+Al centro: justify-content: center;
+A la derecha: justify-content: flex-end;
+Repartidos de lado a lado: justify-content: space-between;
+Repartidos con espacio igual: justify-content: space-evenly;
+En vertical (uno debajo de otro): flex-direction: column;
+Al revés: flex-direction: row-reverse;
+Último botón a la derecha: en nav li:last-child pones margin-left: auto;
+Si tenía inline-block en nav li: bórralo.
+TARJETAS (en .platos)
+En fila: display: flex; gap: 16px;
+Todas igual de anchas: en .platos article pones flex: 1; y borras inline-block y width.
+Una el doble de ancha: en esa tarjeta, flex: 2;
+Que bajen si no caben: flex-wrap: wrap;
+Alineadas arriba y no estiradas: align-items: flex-start;
+Centradas en vertical: align-items: center;
+Una sola distinta: en esa tarjeta, align-self: center;
+CENTRAR ALGO EN MEDIO DE UNA CAJA (en header o la caja que sea)
+Centrado en horizontal y vertical: display: flex; justify-content: center; align-items: center; height: 220px;
+Si hay título y subtítulo uno encima del otro: añade flex-direction: column;
+Solo centrar el texto: text-align: center; (esto no es flex)
+Sin height no centra en vertical.
+GALERÍA (en .galeria)
+3 columnas iguales: display: grid; grid-template-columns: repeat(3, 1fr);
+2 columnas: repeat(2, 1fr)
+4 columnas: repeat(4, 1fr)
+La segunda el doble: grid-template-columns: 1fr 2fr;
+Una fija y otra el resto: grid-template-columns: 200px 1fr;
+Hueco entre fotos: gap: 12px;
+Primera foto más ancha: en .galeria div:first-child pones grid-column: span 2;
+Primera foto más alta: en .galeria div:first-child pones grid-row: span 2;
+Otra foto concreta: .galeria div:nth-child(3) es la tercera.
+Última foto: .galeria div:last-child
+PÁGINA CON MENÚ LATERAL (en body)
+Dividir la página: display: grid; grid-template-columns: 220px 1fr; grid-template-rows: auto 1fr auto; min-height: 100vh;
+Dibujar las zonas: grid-template-areas: "menu cabecera" "menu contenido" "menu pie";
+Menú a la derecha en vez de izquierda: grid-template-columns: 1fr 220px; y "cabecera menu" "contenido menu" "pie menu"
+Cabecera arriba de todo, ocupando todo el ancho: "cabecera cabecera" "menu contenido" "pie pie"
+Decir dónde va cada parte: nav { grid-area: menu; }, header { grid-area: cabecera; }, main { grid-area: contenido; }, footer { grid-area: pie; }
+Menú en vertical: en nav ul pones flex-direction: column;
+Quitar el empujón del último botón: en nav li:last-child pones margin-left: 0;
+OJO
+Es : y no =.
+Cada línea acaba en ;.
+Cada grupo lleva { al abrir y } al cerrar.
+No borres la línea del nombre (.platos article {), o todo sale en rojo.
+El archivo tiene que llamarse igual que en el HTML (estilos.css).
+¿Flex o grid?: una fila de cosas, flex. Filas y columnas, grid.
